@@ -23,7 +23,7 @@ export default () => {
 
     fetch(Config.contactFormUrl, { method: 'POST', body: formData })
       .then(() => {
-        message.success('Thank you for your kind response 🙂. Will get back to you.');
+        message.success('Thanks for reaching out🙂. I will get back to you as soon as possible.');
         form.resetFields();
       })
       // eslint-disable-next-line no-console
@@ -34,7 +34,7 @@ export default () => {
     <Col sm={24} md={24} lg={12} className="widthFull">
       <Form form={form} name="nest-messages" onFinish={onFinish} validateMessages={validateMessages}>
         <Form.Item name={['name']} rules={[{ required: true }]}>
-          <Input size="large" placeholder="Full Name *" />
+          <Input size="large" placeholder="Name *" />
         </Form.Item>
         <Form.Item name={['email']} rules={[{ type: 'email' }]}>
           <Input size="large" placeholder="Email" />

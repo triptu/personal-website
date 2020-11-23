@@ -6,16 +6,17 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello !! My name is Rolwin Reevan Monteiro. I'm a full stack web developer who is
-    passionate about various web technologies. I like to experiment with different web
-    technologies. I have an experience of nearly 3 years working with LAMP stack, MERN stack
-    and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
-    is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some
-    cool notes on web technologies.`,
-  paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
-    have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
-    keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+  paraOne: `Hi There! My name is Tushar Tripathi. I build and fix things. Lots of things, in lots of ways. Some in software, some not. It's what I love to do.
+    I'm a full stack software engineer by profession which is to say that I have experience with most parts of SDLC.`,
+  paraTwo: `Currently I'm working on an application which involves me using Java, Python and AngularJs while dealing 
+    with MongoDB, Elastic Search, Camunda, Hazelcast and Kafka on a daily basis. I have aso worked with Ruby, Elixir and Golang in the past.
+    On the devops side I have experience with Gitlab CI/CD, Docker, Kubernetes, Jenkins, Netlify and GCP. 
+    Checkout this post to see other technologies I'm familiar with or have worked with in past.
+    In personal projects, I'm working on building a Themed programming language to learn more about compilers and low level OS details. 
+    I'm also trying to pick up writing blogs and musings which I have been stalling for quite a while now.`,
+  paraThree: `I've been lately reading up on large scale distributed systems and would be very interested to work on products which are in process of scaling up. 
+  Functional programming is another thing which is quite fascinating to me, do reach out if you have a suitable opening(Elixir❤️, Erlang, Haskell etc.). Other things I'd be
+  interested in working on are data science, Systems Programming(C, C++, Rust), IOT, AR/VR related projects. I'm more inclined towards remote based job offerings.`
 };
 
 const AboutMe = () => {
@@ -27,13 +28,16 @@ const AboutMe = () => {
           title="About"
           description={description}
           path=""
-          keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
+          keywords={['Tushar', 'Tripathi', 'Software Engineer', 'Javascript', 'ReactJS', 'AngularJS', 'Java', 'Python', 'DSA']}
         />
         <h1 className="titleSeparate">About Me</h1>
         <p>
           {pageText.paraOne}
         </p>
         <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
+        <p>
+          {pageText.paraThree}
+        </p>
       </div>
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>

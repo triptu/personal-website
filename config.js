@@ -1,12 +1,12 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://rolwinreevan.com',
-  siteTitle: 'Rolwin Reevan',
-  siteDescription: 'Logbook of a software developer',
-  author: 'Rolwin Reevan',
+  siteUrl: 'https://tushartripathi.netlify.app/',
+  siteTitle: 'Tushar Tripathi',
+  siteDescription: 'Logbook of a software engineer',
+  author: 'Tushar Tripathi',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
+  disqusScript: process.env.DISQUS_SCRIPT || 'https://tushartripathi.disqus.com/embed.js',
   pages: {
     home: '/',
     blog: 'blog',
@@ -15,13 +15,11 @@ module.exports = {
     tag: 'tags',
   },
   social: {
-    github: 'https://github.com/rolwin100',
-    facebook: 'https://www.facebook.com/rolwin.monteiro',
-    twitter: 'https://twitter.com/rolwin100',
-    instagram: 'https://www.instagram.com/reevan100/',
-    rss: '/rss.xml',
+    github: 'https://github.com/triptu',
+    linkedin: 'https://www.linkedin.com/in/tushar297',
+    instagram: 'https://www.instagram.com/musicinchaos/'
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/5983ac61-7def-47a5-a682-ca455663ecf6',
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   tags: {
     javascript: {
@@ -69,6 +67,10 @@ module.exports = {
       description: 'A general purpose programming language that is widely used for developing various applications.',
       color: '#f9c646',
     },
-
+    elixir: {
+      name: 'elixir',
+      description: 'A functional programming language based on Erlang VM.',
+      color: '#f9c646',
+    },
   },
 };

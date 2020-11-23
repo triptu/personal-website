@@ -61,9 +61,6 @@ So It depends on the use-case when to go for Gatsby and When to go for Wordpress
 
 4. SEO and Performance in mind with minimal cost then `Gatsby` is the solution you can build a SPA and PWA applications easily with `Gatsby`. Even Wordpress has some cool plugins like `Yoast` for SEO and there are some very good flexibility while using Wordpress enhancing the SEO without much technical knowledge but you need a very good server to keep the performance of the `Wordpress` site up. If SEO is your concern then you should make sure that your site renders in less then 3 seconds.
 
-## Building a Gatsby application
-
-There are plenty of different ways to build gatsby websites. To start with you can look into official [gatsby docs](https://www.gatsbyjs.org/docs/) and the tutorials on their [site](https://www.gatsbyjs.org/tutorial/). There are also a list of [plugins](https://www.gatsbyjs.org/plugins/) that can help you to develop your site faster. For more comparision about Wordpress with Gatsby you can check this [link](https://www.gatsbyjs.org/features/cms/). You can go through the starters which are available over the internet. I have also open-sourced my website [Rolwin Reevan](https://rolwinreevan.com) on my [Github page](https://github.com/rolwin100/rolwinreevan_gatsby_blog). You can use this starter to build your portfolio. I have put in a lot of effort to build this starter. So please make sure you give a star for this repo.
 
 
 
