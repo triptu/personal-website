@@ -5,8 +5,11 @@
   </a>
 </p>
 <h1 align="center">
-  Personal website to host portfolio and blogs. Check the website at <a href='https://tushartripathi.netlify.app/' target='_blank'>https://tushartripathi.netlify.app</a>. <a href='https://github.com/rolwin100/rolwinreevan_gatsby_blog' target='_blank'>Inspiration.</a>
+  Personal website to host portfolio and blogs. Check the website at <a href='https://tushartripathi.me/' target='_blank'>https://tushartripathi.me/</a>.
 </h1>
+<p>
+  <a href='https://github.com/rolwin100/rolwinreevan_gatsby_blog' target='_blank'>Inspiration.</a>
+</p>
 
 ## 🚀 Quick start
 

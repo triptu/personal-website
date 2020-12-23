@@ -35,22 +35,22 @@ const DomContent = () => (
       <ul className={`box ${style.badge} contactBlock`}>
         <li className={`${style.contactBlockItem}`}>
           <span>
-            <FeatherIcon size="19" icon="calendar" />
+            <FeatherIcon size="19" icon="map-pin" />
             {' '}
           </span>
-&nbsp; &nbsp; 15 July, 1998
+&nbsp; &nbsp; Goldman Sachs(Fortune 100)
         </li>
         <li className={`${style.contactBlockItem}`}>
-          <span><FeatherIcon size="19" icon="map-pin" /></span>
+          <span><FeatherIcon size="19" icon="book" /></span>
           {' '}
-&nbsp; &nbsp; Bangalore, India
+&nbsp; &nbsp; BITS Pilani
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="mail" /></span>
           {' '}
 &nbsp; &nbsp;
           <a
-            href="mailto:&#114;&#111;&#108;&#119;&#105;&#110;&#109;&#111;&#110;&#116;&#101;&#105;&#114;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+            href="mailto:contact%40tushartripati.me"
             target="_top"
           >
             <span className={style.emailHider}>@</span>

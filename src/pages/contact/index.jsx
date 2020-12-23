@@ -10,7 +10,7 @@ const Contact = () => (
     <Layout className="container">
       <SEO
         title="Contact"
-        description="Hi, you can contact me through the contact form on this page. You can also reach out to me via mail on helloworld2907@gmail.com."
+        description="Hi, you can contact me through the contact form on this page. You can also reach out to me via mail on contact@tushartripati.me."
         path="/contact"
         keywords={['Tushar', 'Tripathi', 'Software Engineer', 'Javascript', 'ReactJS', 'AngularJS', 'Java', 'Python', 'DSA']}
       />

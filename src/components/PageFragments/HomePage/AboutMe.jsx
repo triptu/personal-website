@@ -1,22 +1,24 @@
 import React from 'react';
-import { Row, Col } from 'antd';
-import AboutTile from '../../AbouTile';
+import { Link } from 'gatsby';
 import { stripTags, domHtml } from '../../../utils/stripTags';
 
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hi There! My name is Tushar Tripathi. I build and fix things. Lots of things, in lots of ways. Some in software, some not. It's what I love to do.
-    I'm a full stack software engineer by profession which is to say that I have experience with most parts of SDLC.`,
-  paraTwo: `Currently I'm working on an application which involves me using Java, Python and AngularJs while dealing 
-    with MongoDB, Elastic Search, Camunda, Hazelcast and Kafka on a daily basis. I have aso worked with Ruby, Elixir and Golang in the past.
+  paraOne: `Hi There! I'm Tushar. I fix and build things. Lots of things, in lots of ways. Some in software, some not. It's what I love to do.
+    I'm a full stack software engineer by profession which is to say that I have experience with most parts of SDLC. I'm incredibly good at picking up and mastering new things
+     surprising even myself at times.😃`,
+  paraTwo: `Currently I'm working for Goldman Sachs on different internal applications which involves me using Java, Python and AngularJs while dealing 
+    with MongoDB, Elastic Search, Camunda, Hazelcast and Kafka on a daily basis. I have also worked with Ruby, Elixir and Golang in the past.
     On the devops side I have experience with Gitlab CI/CD, Docker, Kubernetes, Jenkins, Netlify and GCP. 
-    Checkout this post to see other technologies I'm familiar with or have worked with in past.
-    In personal projects, I'm working on building a Themed programming language to learn more about compilers and low level OS details. 
+    Checkout this post to see other technologies I'm familiar with or have worked on in past alongwith more details.
+    In personal projects, I'm trying to build a Hogwarts themed programming language to learn more about compilers and low level OS details. 
     I'm also trying to pick up writing blogs and musings which I have been stalling for quite a while now.`,
-  paraThree: `I've been lately reading up on large scale distributed systems and would be very interested to work on products which are in process of scaling up. 
-  Functional programming is another thing which is quite fascinating to me, do reach out if you have a suitable opening(Elixir❤️, Erlang, Haskell etc.). Other things I'd be
-  interested in working on are data science, Systems Programming(C, C++, Rust), IOT, AR/VR related projects. I'm more inclined towards remote based job offerings.`
+  paraThree: `I've been lately reading up a lot on large scale distributed systems and would be very interested to work on products that are in the process of scaling up. 
+  Functional programming is another thing which is quite fascinating to me and I would be very interested in working with FP languages(Elixir❤️, Erlang, Haskell etc.). Other things I'd be
+  interested in working on are data science, Systems Programming(C, C++, Rust), IOT, AR/VR related projects.`,
+  tldr: `I am a software engineer with experience in building scalable distributed systems using a multitude of different tools. 
+  I'm interested in remote based job/freelance offerings.`,
 };
 
 const AboutMe = () => {
@@ -38,8 +40,14 @@ const AboutMe = () => {
         <p>
           {pageText.paraThree}
         </p>
+        <p>
+          <b>TLDR;</b>
+          {' '}
+          {pageText.tldr}
+          <Link to="/contact"> Contact Me.</Link>
+        </p>
       </div>
-      <Row gutter={[20, 20]}>
+      {/* <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="location.png"
@@ -93,7 +101,7 @@ const AboutMe = () => {
             width={60}
           />
         </Col>
-      </Row>
+      </Row> */}
     </>
   );
 };

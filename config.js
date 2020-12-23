@@ -17,7 +17,7 @@ module.exports = {
   social: {
     github: 'https://github.com/triptu',
     linkedin: 'https://www.linkedin.com/in/tushar297',
-    instagram: 'https://www.instagram.com/musicinchaos/'
+    instagram: 'https://www.instagram.com/musicinchaos/',
   },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/5983ac61-7def-47a5-a682-ca455663ecf6',
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
