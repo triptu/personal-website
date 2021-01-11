@@ -56,12 +56,12 @@ module.exports = {
       description: 'A markup language that powers the web. All websites use HTML for structuring the content.',
       color: '#dd3431',
     },
-    css: {
-      name: 'coding',
+    programming: {
+      name: 'programming',
       description: 'Programming, code.',
       color: '#43ace0',
     },
-    css: {
+    interview: {
       name: 'interview',
       description: 'Interview related.',
       color: '#43ace0',
