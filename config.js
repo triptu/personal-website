@@ -20,7 +20,6 @@ module.exports = {
     instagram: 'https://www.instagram.com/musicinchaos/',
   },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/5983ac61-7def-47a5-a682-ca455663ecf6',
-  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   tags: {
     javascript: {
       name: 'javascript',
@@ -58,8 +57,13 @@ module.exports = {
       color: '#dd3431',
     },
     css: {
-      name: 'css',
-      description: 'CSS is used to style the HTML element and to give a very fancy look for the web application.',
+      name: 'coding',
+      description: 'Programming, code.',
+      color: '#43ace0',
+    },
+    css: {
+      name: 'interview',
+      description: 'Interview related.',
       color: '#43ace0',
     },
     python: {

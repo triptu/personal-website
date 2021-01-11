@@ -12,12 +12,12 @@ const pageText = {
     with MongoDB, Elastic Search, Camunda, Hazelcast and Kafka on a daily basis. I have also worked with Ruby, Elixir and Golang in the past.
     On the devops side I have experience with Gitlab CI/CD, Docker, Kubernetes, Jenkins, Netlify and GCP. 
     Checkout this post to see other technologies I'm familiar with or have worked on in past alongwith more details.
-    In personal projects, I'm trying to build a Hogwarts themed programming language to learn more about compilers and low level OS details. 
+    On the personal side, I'm aiming to learn about compilers and write a toy language this year.
     I'm also trying to pick up writing blogs and musings which I have been stalling for quite a while now.`,
   paraThree: `I've been lately reading up a lot on large scale distributed systems and would be very interested to work on products that are in the process of scaling up. 
   Functional programming is another thing which is quite fascinating to me and I would be very interested in working with FP languages(Elixir❤️, Erlang, Haskell etc.). Other things I'd be
   interested in working on are data science, Systems Programming(C, C++, Rust), IOT, AR/VR related projects.`,
-  tldr: `I am a software engineer with experience in building scalable distributed systems using a multitude of different tools. 
+  tldr: `I am a software engineer with experience in building distributed systems using a multitude of different tools. 
   I'm interested in remote based job/freelance offerings.`,
 };
 
