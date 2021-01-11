@@ -56,14 +56,19 @@ module.exports = {
       description: 'A markup language that powers the web. All websites use HTML for structuring the content.',
       color: '#dd3431',
     },
+    css: {
+      name: 'css',
+      description: 'CSS is used to add styles to HTML.',
+      color: '#43ace0',
+    },
     programming: {
       name: 'programming',
-      description: 'Programming, code.',
+      description: 'My thoughts on different things tech.',
       color: '#43ace0',
     },
     interview: {
       name: 'interview',
-      description: 'Interview related.',
+      description: 'My experience with giving and taking interviews.',
       color: '#43ace0',
     },
     python: {

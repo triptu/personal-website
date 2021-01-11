@@ -27,8 +27,7 @@ const Tags = ({ data }) => {
         <Header />
         <SEO
           title="Tags"
-          description="This page consists of various Tags on various technologies that I'll be using
-          to write blogs. You can check the blogs related to the tags by clicking on any of the tags below."
+          description="This page consists of various Tags associated with the blogs. You can check the blogs related to the tags by clicking on any of the tags below."
           path="tags"
         />
         <SidebarWrapper>
@@ -85,6 +84,7 @@ Tags.propTypes = {
   }).isRequired,
 };
 
+//  Tags are selected on basis of what images are present in the images/tags folder.
 export const query = graphql`
   {
     allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/index.md$/" } }) {
