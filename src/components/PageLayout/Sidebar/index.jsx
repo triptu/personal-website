@@ -50,7 +50,7 @@ const DomContent = () => (
           {' '}
 &nbsp; &nbsp;
           <a
-            href="mailto:contact%40tushartripati.me"
+            href="mailto:contact%40tushartripathi.me"
             target="_top"
           >
             <span className={style.emailHider}>@</span>
