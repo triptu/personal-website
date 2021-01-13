@@ -39,12 +39,12 @@ const AboutMe = () => {
         <p>
           {pageText.paraThree}
         </p>
-        <p>
+        {/* <p>
           <b>TLDR;</b>
           {' '}
           {pageText.tldr}
           <Link to="/contact"> Contact Me.</Link>
-        </p>
+        </p> */}
       </div>
       {/* <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
