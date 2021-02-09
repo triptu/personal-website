@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import { stripTags, domHtml } from '../../../utils/stripTags';
 
 import SEO from '../../Seo';
